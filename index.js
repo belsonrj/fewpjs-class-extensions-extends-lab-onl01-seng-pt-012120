@@ -5,10 +5,22 @@ class Polygon {
   get countSides() {
     return sides.length
   }
-  get shapePerimeter() {
+  get perimeter() {
     return sides
   }
 }
+
 class Triangle extends Polygon {
+  get isValid() {
     
   }
+}
+
+class Square extends Polygon {
+  get isValid() {
+    
+  }
+  get area() {
+    
+  }
+}
