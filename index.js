@@ -7,7 +7,12 @@ class Polygon {
     return this.sides.length
   }
   get perimeter() {
-    return sides
+    if ( !Array.isArray( this.sides ) ) return;
+    let sum = 0;
+    for ( var int of this.sides ) {
+      sum += int
+    }
+    return sum
   }
 }
 
