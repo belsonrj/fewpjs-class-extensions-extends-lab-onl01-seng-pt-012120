@@ -21,6 +21,6 @@ class Square extends Polygon {
     
   }
   get area() {
-    
+    return this.sideLength * this.sideLength;
   }
 }
