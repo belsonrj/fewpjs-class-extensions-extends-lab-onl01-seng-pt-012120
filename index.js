@@ -8,5 +8,7 @@ class Polygon {
   get shapePerimeter() {
     return sides
   }
-  class Triangle extends Polygon
+  class Triangle extends Polygon {
+    
+  }
 }
