@@ -2,5 +2,11 @@ class Polygon {
   constructor(array) {
     
   }
-  get countSides()
+  get countSides() {
+    return sides.length
+  }
+  get shapePerimeter() {
+    return sides
+  }
+  class Triangle 
 }
